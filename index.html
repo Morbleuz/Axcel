@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Axcel</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+  
+</head>
+<body>
+    <h1>Axcel</h1>
+    <nav>
+        <button onclick="resetCase()">Reset</button>
+        <button onclick="calculTotal()">Calcul Total</button>
+    </nav>
+    <div class="container">
+        <table>
+            <tr>
+                <th>Année</th>
+                <th>Janvier</th>
+                <th>Février</th>
+                <th>Mars</th>
+                <th>Avril</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>2012</td>
+                <td class="case">1</td>
+                <td class="case">2</td>
+                <td class="case">3</td>
+                <td class="case">5</td>
+                <td class="total">0</td>
+            </tr>
+            <tr>
+                <td>2013</td>
+                <td class="case">1</td>
+                <td class="case">2</td>
+                <td class="case">3</td>
+                <td class="case">5</td>
+                <td class="total">0</td>
+            </tr>
+            <tr>
+                <td>2014</td>
+                <td class="case">1</td>
+                <td class="case">2</td>
+                <td class="case">3</td>
+                <td class="case">5</td>
+                <td class="total">0</td>
+            </tr>
+            <tr>
+                <td>2015</td>
+                <td class="case">1</td>
+                <td class="case">2</td>
+                <td class="case">3</td>
+                <td class="case">5</td>
+                <td class="total">0</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td class="total">0</td>
+                <td class="total">0</td>
+                <td class="total">0</td>
+                <td class="total">0</td>
+                <td class="total" id="leTotal">0</td>
+            </tr>
+        </table>
+    </div>
+    <p id="erreur">Vous devez saisir des entiers pour pouvoir saisir une valeur</p>
+    
+    <script src='js/script.js'></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.container{
+    height: auto;
+    width: 50em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    background-color: lightgray;
+
+}
+td{
+    text-align: center;
+}
+th, td{
+    border: 1px solid black;
+}
+nav{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color:grey ;
+    width: 50em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto ;
+    justify-content: space-around;
+}
+input{
+    width: 3em;
+}
+p{
+    display: none;
+    text-align: center;
+    color: red;
+}
